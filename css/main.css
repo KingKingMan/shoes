@@ -156,56 +156,47 @@ body {
   left: 48px;
 }
 
-/* product_new, product_top */
-.product_new,
-.product_top {
+/* products */
+.products {
   height: 506px;
   margin-top: 130px;
 }
 
-.product_new h2,
-.product_top h2 {
+.products h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   line-height: 40px;
   margin-bottom: 26px;
 }
 
-.product_new ul,
-.product_top ul {
+.products ul {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding-bottom: 64px;
 }
 
-.product_new ul li img,
-.product_top ul li img {
+.products ul li img {
   width: 306px;
   height: 306px;
   background-color: #ddd;
 }
 
-.product_new ul li .item,
-.product_top ul li .item {
+.products ul li .item {
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
 }
 
-.product_new ul li .price,
-.product_top ul li .price {
+.products ul li .price {
   font-size: 18px;
   line-height: 28px;
 }
 
-.product_new ul li a:hover,
-.product_top ul li a:hover {
+.products ul li a:hover {
   text-decoration: underline;
 }
 
-.product_new ul::after,
-.product_top ul::after {
+.products ul::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -213,6 +204,22 @@ body {
   width: 100%;
   height: 7px;
   background-color: #c4c4c4;
+}
+
+.products ul li {
+  position: relative;
+  padding-bottom: 64px;
+}
+
+.products ul li:hover:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: #111;
+  z-index: 1;
 }
 
 /* infos */
