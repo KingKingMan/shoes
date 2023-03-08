@@ -1,7 +1,7 @@
 /* width : 1320px */
 /* 패딩 양옆으로 20px, 컨텐츠는 1280px */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Poppins:wght@400;500;600&display=swap');
 /* Poppins 400=Regular , 500=Medium , 600=SemiBold */
 
 * {
@@ -21,7 +21,7 @@ ul {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* font-family: "Montserrat", sans-serif; */
   color: #111;
   font-size: 16px;
@@ -79,7 +79,7 @@ body {
 .visual .center_box {
   position: relative;
   height: 728px;
-  background-image: url("/images/main_visual.png");
+  background-image: url('../images/main_visual.png');
   background-repeat: no-repeat;
   background-position: center right;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .visual .center_box .details h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   font-weight: 800;
 }
@@ -130,7 +130,7 @@ body {
   height: 642px;
   background-color: #111;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: relative;
 }
 
@@ -163,7 +163,7 @@ body {
 }
 
 .products h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   line-height: 40px;
   margin-bottom: 26px;
@@ -197,7 +197,7 @@ body {
 }
 
 .products ul::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -212,7 +212,7 @@ body {
 }
 
 .products ul li:hover:after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -236,7 +236,7 @@ body {
 }
 
 .infos_box h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 10px;
